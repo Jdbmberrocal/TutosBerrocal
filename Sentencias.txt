@@ -1,0 +1,1 @@
+SELECT Idcurso, u.Idusuario, u.nombre, titulo, imagen, categoria, contenido, enlace, fecha FROM usuario u, curso ORDER BY u.Idusuario LIMIT 0 , 30

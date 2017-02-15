@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registro</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-inverse">
+     <div class="container-fluid">
+       <div class="navbar-header">
+         <a class="navbar-brand" href="#">TutosBerrocal</a>
+       </div>
+       <ul class="nav navbar-nav">
+         <li class="active"><a href="#">Inicio</a></li>
+         <li class="dropdown">
+           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Cursos
+           <span class="caret"></span></a>
+           <ul class="dropdown-menu">
+             <li><a href="#">Programación</a></li>
+             <li><a href="#">Matemática</a></li>
+             <li><a href="#">Linux</a></li>
+           </ul>
+         </li>
+         <li><a href="#">Tutoriales</a></li>
+         <li><a href="#">Libros</a></li>
+         <li><a href="#">Noticias</a></li>
+         <li><a href="#">Contactos</a></li>
+       </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Registro</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+     </div>
+    </nav>
+
+  <div class="jumbotron text-center">
+    <h1>Tutos Berrocal</h1>
+    <p>La información no es para restringirla, es para compartirla</p>
+  </div>
+
+
+ <div class="container">
+   <div class="row">
+     <div class="col-sm-3">
+       <div class="panel panel-default">
+          <div class="panel-body"><b>Formulario de prueba</b></div>
+          <div class="panel-footer">
+            <form class="" action="index.html" method="get">
+              <input type="text" id="nombre" name="nombre">
+              <input type="text" id="apellido" name="apellido">
+              <input type="submit" value="Enviar" id="send">
+            </form>
+          </div>
+        </div>
+     </div>
+
+     <div class="col-sm-6">
+
+       <div class="panel panel-default">
+          <!--<div class="panel-body bg-primary"><b>Registro de usuario</b></div>-->
+          <div class="panel-footer">
+
+
+            <form>
+             <div class="form-group col-xs-12">
+               <label for="email">Nombre:</label>
+               <input type="text" class="form-control" id="email">
+             </div>
+             <div class="form-group col-xs-12">
+               <label for="email">Apellidos:</label>
+               <input type="text" class="form-control" id="email">
+             </div>
+             <div class="form-group col-xs-12">
+               <label for="email">Usuario:</label>
+               <input type="text" class="form-control" id="email">
+             </div>
+             <div class="form-group col-xs-12">
+               <label for="email">Correo:</label>
+               <input type="email" class="form-control" id="email">
+             </div>
+             <div class="form-group col-xs-12">
+               <label for="pwd">Contraseña:</label>
+               <input type="password" class="form-control" id="pwd">
+             </div>
+             <button type="submit" class="btn btn-default">Registrar</button>
+            </form>
+            https://www.youtube.com/watch?v=zSB6RY-tqe8&list=PLGIvoD9Ur9I3KnM9ebo-28B5zWeZeF0as&index=1
+          </div>
+        </div>
+
+     </div>
+     <div class="col-sm-3">
+       <div class="panel panel-default">
+          <div class="panel-body"><b>Modelado de paginas web con css3</b></div>
+          <div class="panel-footer">
+
+            <form name="myForm" action="" onsubmit="return validateForm()" method="post">
+            Name: <input type="text" name="fname">
+            <input type="submit" value="Submit">
+            </form>
+
+
+          </div>
+        </div>
+     </div>
+     </div>
+   </div>
+ </div>
+
+
+
+<script type="text/javascript" src="js/validacion.js"></script>
+<script type="text/javascript">
+function validateForm() {
+  var x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+      alert("Name must be filled out");
+      return false;
+  }
+}
+</script>
+  </body>
+</html>
